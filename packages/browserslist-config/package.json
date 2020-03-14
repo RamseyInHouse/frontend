@@ -1,0 +1,17 @@
+{
+  "name": "@ramsey/browserslist-config",
+  "version": "1.0.0",
+  "description": "The standard browserslis configuration for a Ramsey Solutions project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "config",
+    "ramsey",
+    "solutions",
+    "browserslist"
+  ],
+  "author": "Ramsey Solutions",
+  "license": "MIT"
+}
