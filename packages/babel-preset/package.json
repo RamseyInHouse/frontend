@@ -1,0 +1,23 @@
+{
+  "name": "@ramsey/babel-preset",
+  "version": "1.0.0",
+  "description": "The standard babel configuration for a Ramsey Solutions project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "config",
+    "ramsey",
+    "solutions",
+    "babel"
+  ],
+  "author": "Ramsey Solutions",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.8.7"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  }
+}
