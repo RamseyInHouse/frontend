@@ -1,0 +1,1 @@
+# Ramsey Solutions .editorconfig
