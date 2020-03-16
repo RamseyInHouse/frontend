@@ -1,34 +1,39 @@
-# Ramsey Solutions babel-preset-ramsey
+# Ramsey Solutions Babel Preset
 
 ## How to use [Babel](https://babeljs.io/) and the Ramsey Solutions preset in your project
 
+### Installation
+
+```
+yarn add dev @babel/core @babel/cli @ramsey/babel-preset-ramsey
+```
+
 ### Required Dependencies
-- [@babel/cli 7.0.0+](https://www.npmjs.com/package/@babel/cli)
 - [@babel/core 7.0.0+](https://www.npmjs.com/package/@babel/core)
-- [@ramsey/browserslist-config]()
-- [core-js 3+](https://www.npmjs.com/package/core-js)
+- [@babel/cli 7.0.0+](https://www.npmjs.com/package/@babel/cli) (If you plan to use `babel` in your build script)
 
-Add the preset to your development dependencies
-```
-yarn add dev @ramsey/babel-preset-ramsey
-```
+### Usage
+[Configure](https://babeljs.io/docs/en/configuration) Babel to extend the Ramsey Babel preset by adding a `babel.config.json` to the root of your project ([This is the Babel recommended way](https://babeljs.io/docs/en/configuration#whats-your-use-case)). Babel automatically looks for the config file. The contents of your config file should look like this:
 
-Ensure you have a `babel.config.json` file at the root of your project.
-To follow our dev standards, use the preset instead of @babel/preset-env
-
-```jsonc
-// babel.config.json
-
+```json
 {
-  "presets": ["@ramsey/babel-preset"]
+  "extends": "@ramsey/eslint-config"
 }
 ```
 
 ### What is included in the preset?
-The preset adds `@babel/preset-env` with a few the following settings to ensure we're supporting the browserslist configuration:
+The preset adds `@babel/preset-env` with the following settings to ensure we're supporting the browsers in our browserslist configuration:
+
 ```json
 {
-  "useBuiltIns": "usage",
-  "corejs": 3
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ]
+  ]
 }
 ```
