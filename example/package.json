@@ -16,7 +16,7 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
-    "@ramsey/babel-preset-ramsey": "^1.0.0",
+    "@ramsey/babel-preset": "^1.0.0",
     "@ramsey/browserslist-config": "^1.0.0",
     "@ramsey/eslint-config": "^1.0.0",
     "@ramsey/prettier-config": "^1.0.0",
