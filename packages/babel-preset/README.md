@@ -20,7 +20,7 @@ To follow our dev standards, use the preset instead of @babel/preset-env
 // babel.config.json
 
 {
-  "presets": ["@ramsey/ramsey"]
+  "presets": ["@ramsey/babel-preset"]
 }
 ```
 
