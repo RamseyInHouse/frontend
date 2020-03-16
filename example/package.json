@@ -1,0 +1,28 @@
+{
+  "name": "rs-front-end-configs-example",
+  "version": "1.0.0",
+  "description": "An example Ramsey Solutions project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "config",
+    "ramsey",
+    "solutions"
+  ],
+  "author": "Ramsey Solutions",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@ramsey/babel-preset-ramsey": "^1.0.0",
+    "@ramsey/browserslist-config": "^1.0.0",
+    "@ramsey/eslint-config": "^1.0.0",
+    "@ramsey/prettier-config": "^1.0.0",
+    "@ramsey/stylelint-config": "^1.0.0",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1",
+    "stylelint": "^13.2.1"
+  }
+}
