@@ -34,7 +34,7 @@ The [`.editorconfig`](.editorconfig) file is a recommended starting point for th
 ### Installation
 
 ```
-yarn add dev prettier @ramsey/prettier-config
+yarn add --dev prettier @ramsey/prettier-config
 ```
 
 ### Required Dependencies:
@@ -56,7 +56,7 @@ Prettier formatting SHOULD be enforced through the use of a pre-commit hook. See
 ### Installation
 
 ```
-yarn add dev stylelint @ramsey/stylelint-config
+yarn add --dev stylelint @ramsey/stylelint-config
 ```
 
 ### Required Dependencies:
@@ -80,7 +80,7 @@ Utilize the `--config` option when using the [stylelint cli](https://stylelint.i
 ### Installation
 
 ```
-yarn add dev eslint @ramsey/eslint-config babel-eslint
+yarn add --dev eslint @ramsey/eslint-config babel-eslint
 ```
 
 ### Required Dependencies
@@ -119,7 +119,7 @@ Example:
 ### Installation
 
 ```
-yarn add dev @babel/core @babel/cli @ramsey/babel-preset-ramsey
+yarn add --dev @babel/core @babel/cli @ramsey/babel-preset-ramsey
 ```
 
 ### Required Dependencies
@@ -157,7 +157,7 @@ The preset adds `@babel/preset-env` with the following settings to ensure we're 
 ### Installation
 
 ```
-yarn add dev @ramsey/browserslist-config
+yarn add --dev @ramsey/browserslist-config
 ```
 
 ### Usage
