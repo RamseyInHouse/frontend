@@ -110,7 +110,7 @@ module.exports = {
     'no-undef-init': 2, // http://eslint.org/docs/rules/no-undef-init
     'no-undefined': 2, // http://eslint.org/docs/rules/no-undefined
     'no-unused-vars': [2, { vars: 'all', args: 'after-used' }], // http://eslint.org/docs/rules/no-unused-vars
-    'no-use-before-define': 2, // http://eslint.org/docs/rules/no-use-before-define
+    'no-use-before-define': [2, { functions: false }], // http://eslint.org/docs/rules/no-use-before-define
 
     // # Node.js and CommonJS http://eslint.org/docs/rules/#nodejs-and-commonjs
     'callback-return': 2, // http://eslint.org/docs/rules/callback-return
