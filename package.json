@@ -1,0 +1,17 @@
+{
+  "name": "rs-front-end-config",
+  "description": "Ramsey Solutions Front-End Configurations.",
+  "author": "Ramsey Solutions",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramseyinhouse/rs-front-end-config"
+  },
+  "scripts": {
+    "prettier": "prettier --config packages/prettier-config/index.js --write \"**/*.{js,json,md}\""
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
