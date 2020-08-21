@@ -1,24 +1,34 @@
 {
-  "name": "@ramsey/eslint-config",
+  "name": "@ramseyinhouse/eslint-config",
   "version": "1.0.0",
-  "description": "The standard eslint configuration for a Ramsey Solutions project",
+  "description": "Ramsey Solutions standard ESLint configuration.",
   "main": "index.js",
+  "homepage": "https://github.com/ramseyinhouse/frontend/packages/eslint-config",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [
-    "config",
     "ramsey",
-    "solutions",
+    "ramsey solutions",
+    "ramsey in house",
     "eslint",
-    "eslintconfig"
+    "front end",
+    "javascript",
+    "eslintconfig",
+    "eslintplugin",
+    "eslint-config",
+    "eslint-plugin"
   ],
   "author": "Ramsey Solutions",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "dependencies": {
     "babel-eslint": ">=10.1.0",
     "eslint-config-prettier": ">=6.10.0"
   },
+   "contributors": [
+    "Christian Hughes <christian.hughes@daveramsey.com> (http://ramseyinhouse.com/)",
+    "Alex MacArthur <alex.macarthur@daveramsey.com> (http://ramseyinhouse.com/)"
+  ],
   "peerDependencies": {
     "eslint": ">= 6.8.0"
   }
