@@ -1,9 +1,9 @@
 {
-  "name": "front-end",
+  "name": "frontend",
   "description": "Ramsey Solutions front-end standards.",
   "author": "Ramsey Solutions",
   "version": "1.0.0",
-  "homepage": "https://github.com/owner/project#readme"
+  "homepage": "https://github.com/ramseyinhouse/frontend",
   "repository": {
     "type": "git",
     "url": "https://github.com/ramseyinhouse/frontend"
@@ -20,5 +20,8 @@
   "contributors": [
     "Christian Hughes <christian.hughes@daveramsey.com> (http://ramseyinhouse.com/)",
     "Alex MacArthur <alex.macarthur@daveramsey.com> (http://ramseyinhouse.com/)"
-  ]
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
 }
