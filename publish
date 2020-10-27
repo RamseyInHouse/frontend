@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for d in packages/*/ ; do
+    echo "publish $d --access public --dry-run"
+done
