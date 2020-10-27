@@ -1,5 +1,19 @@
 #!/bin/bash
 
-for d in packages/*/ ; do
-    echo "publish $d --access public --dry-run"
+function get_version() {
+    echo $(cat $1 |
+        grep version |
+        head -1 |
+        awk -F: '{ print $2 }' |
+        sed 's/[",]//g')
+}
+
+for d in packages/*; do
+    VERSION=$(get_version "$d/package.json")
+
+    if npm publish $d --access public --dry-run; then
+        echo "v$VERSION was published!"
+    else
+        echo "v$VERSION was not published."
+    fi
 done
