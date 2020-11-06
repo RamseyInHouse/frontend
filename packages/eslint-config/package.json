@@ -23,7 +23,7 @@
     "eslint-plugin"
   ],
   "dependencies": {
-    "@babel/core:":"7.12.3",
+    "@babel/core": "7.12.3",
     "@babel/eslint-parser": "^7.12.1",
     "eslint-config-prettier": "^6.15.0"
   },
