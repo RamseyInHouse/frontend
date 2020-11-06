@@ -4,6 +4,9 @@ on:
   push:
     branches: [master]
 
+env:
+  NPM_TOKEN: ${{secrets.NPM_ACCESS_TOKEN}}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,5 +18,3 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: yarn install
       - run: yarn run lerna publish from-package --yes
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_ACCESS_TOKEN}}
