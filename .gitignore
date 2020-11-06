@@ -1,0 +1,9 @@
+# gitignore
+node_modules
+
+# Only apps should have lockfiles
+/packages/**/yarn.lock
+/packages/**/package-lock.json
+
+# Lerna
+lerna-debug.log

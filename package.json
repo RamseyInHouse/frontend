@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "description": "Ramsey Solutions front-end standards.",
+  "author": "Ramsey Solutions",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ramseyinhouse/frontend",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramseyinhouse/frontend"
+  },
+  "keywords": [
+    "ramsey",
+    "ramsey solutions",
+    "ramsey in house",
+    "eslint",
+    "front end",
+    "javascript"
+  ],
+  "license": "GPL-3.0",
+  "contributors": [
+    "Christian Hughes <christian.hughes@daveramsey.com> (https://ramseyinhouse.com/)",
+    "Alex MacArthur <alex.macarthur@daveramsey.com> (https://ramseyinhouse.com/)"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "release": "yarn run lerna version"
+  }
+}
