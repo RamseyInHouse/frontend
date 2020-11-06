@@ -32,6 +32,6 @@ yarn add @ramseyinhouse/eslint-config --dev
 
 ```js
 module.exports = {
-  extends: ['@ramseyinhouse/eslint-config'],
+  extends: ['@ramseyinhouse'],
 };
 ```
