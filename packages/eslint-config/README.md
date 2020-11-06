@@ -28,7 +28,7 @@ yarn add @ramseyinhouse/eslint-config --dev
 [Configure](https://eslint.org/docs/user-guide/configuring/) ESLint to extend `@ramseyinhouse/eslint-config`.
 
 1. Add a `.eslintrc.js` (or [other supported file format](https://eslint.org/docs/user-guide/configuring#configuration-file-formats)) to the root of your project.
-2. Extend `@ramseyinhouse/` via the `extends` property:
+2. Extend `@ramseyinhouse` via the `extends` property:
 
 ```js
 module.exports = {
