@@ -18,8 +18,8 @@
   ],
   "license": "GPL-3.0",
   "contributors": [
-    "Christian Hughes <christian.hughes@daveramsey.com> (http://ramseyinhouse.com/)",
-    "Alex MacArthur <alex.macarthur@daveramsey.com> (http://ramseyinhouse.com/)"
+    "Christian Hughes <christian.hughes@daveramsey.com> (https://ramseyinhouse.com/)",
+    "Alex MacArthur <alex.macarthur@daveramsey.com> (https://ramseyinhouse.com/)"
   ],
   "devDependencies": {
     "lerna": "^3.22.1"

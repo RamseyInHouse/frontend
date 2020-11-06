@@ -1,40 +1,37 @@
-# Ramsey Solutions eslint configuration
+# `@ramseyinhouse/eslint-config`
 
-## [ESLint](https://eslint.org/)
+The official [ESLint](https://eslint.org/) configuration for [Ramsey Solutions](https://ramseyinhouse.com/).
 
-### Installation
+Support for [Babel](https://www.npmjs.com/package/@babel/eslint-parser) and [Prettier](https://www.npmjs.com/package/prettier-eslint) is pre-configured out of the box.
+
+## Required Dependencies
+
+- [`eslint`](https://www.npmjs.com/package/eslint)
+- [`prettier`](https://www.npmjs.com/package/prettier)
+
+## Installation
+
+Install `eslint` and `prettier` as `devDependencies` if you have not already:
 
 ```
-yarn add dev eslint @ramsey/eslint-config babel-eslint
+yarn add eslint prettier --dev
 ```
 
-### Required Dependencies
+Install `@ramseyinhouse/eslint-config`:
 
-- [eslint](https://www.npmjs.com/package/eslint)
-
-### Usage
-
-[Configure](https://eslint.org/docs/user-guide/configuring/) ESLint to extend the Ramsey ESLint configuration by adding a `.eslintrc` to the root of your project. ESLint automatically looks for a config file at that location, so this setup should work both in editors and from the CLI. The contents of your config file should look like this:
-
-```json
-{
-  "extends": "@ramsey/eslint-config"
-}
 ```
-The Ramsey ESLint config provides a base set of rules for ESLint. Your project can add additional rules as needed to the `.eslintrc` file.
+yarn add @ramseyinhouse/eslint-config --dev
+```
 
-Example:
-```jsonc
-{
-  "extends": "@ramsey/eslint-config",
-  "env": {
-    // Use additional environments (jQuery, Jasmine, etc.)
-    "es2020": true,
-    "node": true
-  },
-  "rules": {
-    // Add additional rules
-    "react/jsx-uses-react": 2
-  }
-}
+## Usage
+
+[Configure](https://eslint.org/docs/user-guide/configuring/) ESLint to extend `@ramseyinhouse/eslint-config`.
+
+1. Add a `.eslintrc.js` (or [other supported file format](https://eslint.org/docs/user-guide/configuring#configuration-file-formats)) to the root of your project.
+2. Extend `@ramseyinhouse/eslint-config` via the `extends` property:
+
+```js
+module.exports = {
+  extends: ['@ramseyinhouse/eslint-config'],
+};
 ```
