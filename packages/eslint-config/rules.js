@@ -28,7 +28,7 @@ module.exports = {
     'valid-jsdoc': 2, // http://eslint.org/docs/rules/valid-jsdoc
     'valid-typeof': 2, // http://eslint.org/docs/rules/valid-typeof
 
-    // # Best Practices http://eslint.org/docs/rules/#best-practices
+    // Best Practices http://eslint.org/docs/rules/#best-practices
     'accessor-pairs': [2, { setWithoutGet: true }], // http://eslint.org/docs/rules/accessor-pairs
     'block-scoped-var': 2, // http://eslint.org/docs/rules/block-scoped-var
     complexity: [2, 10], // http://eslint.org/docs/rules/complexity
@@ -86,10 +86,10 @@ module.exports = {
     'wrap-iife': 2, // http://eslint.org/docs/rules/wrap-iife
     yoda: 2, // http://eslint.org/docs/rules/yoda
 
-    // # Strict Mode http://eslint.org/docs/rules/#strict-mode
+    // Strict Mode http://eslint.org/docs/rules/#strict-mode
     strict: [2, 'function'], // http://eslint.org/docs/rules/strict
 
-    // # Variables http://eslint.org/docs/rules/#variables
+    // Variables http://eslint.org/docs/rules/#variables
     'init-declarations': [0, 'always'], // http://eslint.org/docs/rules/init-declarations
     'no-catch-shadow': 2, // http://eslint.org/docs/rules/no-catch-shadow
     'no-delete-var': 2, // http://eslint.org/docs/rules/no-delete-var
@@ -102,7 +102,7 @@ module.exports = {
     'no-unused-vars': [2, { vars: 'all', args: 'after-used' }], // http://eslint.org/docs/rules/no-unused-vars
     'no-use-before-define': [2, { functions: false }], // http://eslint.org/docs/rules/no-use-before-define
 
-    // # Node.js and CommonJS http://eslint.org/docs/rules/#nodejs-and-commonjs
+    // Node.js and CommonJS http://eslint.org/docs/rules/#nodejs-and-commonjs
     'callback-return': 2, // http://eslint.org/docs/rules/callback-return
     'handle-callback-err': 0, // http://eslint.org/docs/rules/handle-callback-err
     'no-mixed-requires': [1, true], // http://eslint.org/docs/rules/no-mixed-requires
@@ -147,7 +147,7 @@ module.exports = {
     ], // http://eslint.org/docs/rules/no-restricted-modules
     'no-sync': 2, // http://eslint.org/docs/rules/no-sync
 
-    // # Stylistic Issues http://eslint.org/docs/rules/#stylistic-issues
+    // Stylistic Issues http://eslint.org/docs/rules/#stylistic-issues
     'array-bracket-spacing': [2, 'never'], // http://eslint.org/docs/rules/array-bracket-spacing
     'block-spacing': [2, 'always'], // http://eslint.org/docs/rules/block-spacing
     'brace-style': [2, '1tbs'], // http://eslint.org/docs/rules/brace-style
@@ -206,7 +206,7 @@ module.exports = {
     'spaced-comment': [2, 'always'], // http://eslint.org/docs/rules/spaced-comment
     'wrap-regex': 2, // http://eslint.org/docs/rules/wrap-regex
 
-    // # ECMAScript 6 http://eslint.org/docs/rules/#ecmascript-6
+    // ECMAScript 6 http://eslint.org/docs/rules/#ecmascript-6
     'arrow-body-style': [2, 'as-needed'], // http://eslint.org/docs/rules/arrow-body-style
     'arrow-parens': [2, 'always'], // http://eslint.org/docs/rules/arrow-parens
     'arrow-spacing': [2, { before: true, after: true }], // http://eslint.org/docs/rules/arrow-spacing
