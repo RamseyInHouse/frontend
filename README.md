@@ -18,7 +18,7 @@ To publish a new release:
 2. Run the following command:
 
 ```bash
-yarn run release
+yarn && yarn run release
 ```
 
 _**Note:** The `release` command will increase `package.json` version(s) based on the scope of recent changes. A commit will be made automatically._
