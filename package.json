@@ -25,6 +25,6 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "release": "yarn run lerna version"
+    "release": "yarn run lerna version --no-git-tag-version"
   }
 }
