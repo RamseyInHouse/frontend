@@ -7,7 +7,7 @@ Support for [Babel](https://www.npmjs.com/package/@babel/eslint-parser) and [Pre
 ## Expected Dependencies
 
 - [`eslint`](https://www.npmjs.com/package/eslint)
-- [`prettier`](https://www.npmjs.com/package/prettier)
+- [`prettier`](https://www.npmjs.com/package/prettier) - Though not strictly required, this config relies on `prettier` to enforce many stylistic rules.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 # `@ramseyinhouse/stylelint-config`
 
-The official [styleint](https://stylelint.io/) configuration for [Ramsey Solutions](https://ramseyinhouse.com/).
+The official [stylelint](https://stylelint.io/) configuration for [Ramsey Solutions](https://ramseyinhouse.com/).
 
 Support for [Prettier](https://www.npmjs.com/package/prettier-eslint) is pre-configured out of the box.
 
