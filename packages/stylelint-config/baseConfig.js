@@ -3,7 +3,7 @@ const {
 } = require('./lib/selectorClassPattern');
 
 module.exports = {
-  extends: ['stylelint-config-sass-guidelines', 'stylelint-config-prettier'],
+  extends: ['stylelint-config-sass-guidelines'],
   plugins: ['stylelint-order'],
   rules: {
     'string-quotes': 'single',
