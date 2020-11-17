@@ -17,7 +17,7 @@
     "ramsey solutions",
     "ramsey in house",
     "stylelint",
-    "styelint-config"
+    "stylelint-config"
   ],
   "peerDependencies": {
     "stylelint": ">= 13.0.0",
