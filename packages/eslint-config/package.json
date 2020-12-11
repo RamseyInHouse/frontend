@@ -1,6 +1,6 @@
 {
   "name": "@ramseyinhouse/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Ramsey Solutions",
   "description": "Ramsey Solutions standard ESLint configuration.",
   "main": "index.js",
