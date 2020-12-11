@@ -18,4 +18,4 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
       - run: yarn install
-      - run: yarn run lerna publish from-package --yes
+      - run: yarn run lerna publish from-git --yes
