@@ -10,7 +10,7 @@
     "url": "https://github.com/RamseyInHouse/frontend.git"
   },
   "keywords": [
-     "css", 
+     "css",
      "scss",
      "sass",
     "ramsey",
@@ -38,6 +38,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "contributors": [
+    "Christian Hughes <christian.hughes@daveramsey.com> (https://ramseyinhouse.com/)",
+    "Alex MacArthur <alex.macarthur@daveramsey.com> (https://ramseyinhouse.com/)"
+  ],
   "bugs": {
     "url": "https://github.com/RamseyInHouse/frontend/issues"
   }
