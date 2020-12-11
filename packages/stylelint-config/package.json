@@ -1,6 +1,6 @@
 {
   "name": "@ramseyinhouse/stylelint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Ramsey Solutions",
   "description": "Ramsey Solutions standard stylelint configuration.",
   "homepage": "https://github.com/ramseyinhouse/frontend/packages/stylelint-config",
@@ -10,9 +10,9 @@
     "url": "https://github.com/RamseyInHouse/frontend.git"
   },
   "keywords": [
-     "css",
-     "scss",
-     "sass",
+    "css",
+    "scss",
+    "sass",
     "ramsey",
     "ramsey solutions",
     "ramsey in house",
@@ -20,8 +20,8 @@
     "stylelint-config"
   ],
   "peerDependencies": {
-    "stylelint": ">= 13.0.0",
-    "prettier": ">= 2.0.0"
+    "prettier": ">= 2.0.0",
+    "stylelint": ">= 13.0.0"
   },
   "devDependencies": {
     "jest": "^26.6.3"
