@@ -1,6 +1,6 @@
 {
   "name": "@ramseyinhouse/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ramsey Solutions",
   "description": "Ramsey Solutions standard stylelint configuration.",
   "homepage": "https://github.com/ramseyinhouse/frontend/packages/stylelint-config",
