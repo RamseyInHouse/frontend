@@ -7,3 +7,4 @@ node_modules
 
 # Lerna
 lerna-debug.log
+yarn-error.log

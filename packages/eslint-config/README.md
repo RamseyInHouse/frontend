@@ -4,10 +4,10 @@ The official [ESLint](https://eslint.org/) configuration for [Ramsey Solutions](
 
 Support for [Babel](https://www.npmjs.com/package/@babel/eslint-parser) and [Prettier](https://www.npmjs.com/package/prettier-eslint) is pre-configured out of the box.
 
-## Required Dependencies
+## Expected Dependencies
 
 - [`eslint`](https://www.npmjs.com/package/eslint)
-- [`prettier`](https://www.npmjs.com/package/prettier)
+- [`prettier`](https://www.npmjs.com/package/prettier) - Though not strictly required, this config relies on `prettier` to enforce many stylistic rules.
 
 ## Installation
 
