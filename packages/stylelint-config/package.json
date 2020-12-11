@@ -1,0 +1,44 @@
+{
+  "name": "@ramseyinhouse/stylelint-config",
+  "version": "0.0.0",
+  "author": "Ramsey Solutions",
+  "description": "Ramsey Solutions standard stylelint configuration.",
+  "homepage": "https://github.com/ramseyinhouse/frontend/packages/stylelint-config",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RamseyInHouse/frontend.git"
+  },
+  "keywords": [
+     "css", 
+     "scss",
+     "sass",
+    "ramsey",
+    "ramsey solutions",
+    "ramsey in house",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "peerDependencies": {
+    "stylelint": ">= 13.0.0",
+    "prettier": ">= 2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-order": "^4.1.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/RamseyInHouse/frontend/issues"
+  }
+}
