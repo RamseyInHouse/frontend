@@ -4,7 +4,7 @@ Ramsey Solutions Frontend configurations and standards.
 
 ## Packages
 
-Packages are published to NPM within the [`ramseyinhouse`](https://www.npmjs.com/org/ramseyinhouse) organization.
+Packages are published to npm within the [`ramseyinhouse`](https://www.npmjs.com/org/ramseyinhouse) organization.
 
 ### ESlint
 
