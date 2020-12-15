@@ -33,7 +33,7 @@ Package versions are automatically published to [npm](https://www.npmjs.com/org/
 1. Run the `lerna create` command to create a new Lerna managed package.
 2. Ensure that the `private` property is set to `true` before the package is ready for publication.
 
-Once ready for publication to NPM:
+Once ready for publication to npm:
 
 1. Open a feature branch for your release
 2. Remove the `"private": true` property from the `package.json` file.
