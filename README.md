@@ -52,4 +52,4 @@ yarn run release
 
 _The `release` command will allow you to interactively update the `package.json` version(s) based on the scope of recent changes. A commit will be created and pushed automatically._
 
-3. Open a pull request. Once merged, the new package version(s) will be published to NPM automatically.
+3. Open a pull request. Once merged, the new package version(s) will be published to npm automatically.
