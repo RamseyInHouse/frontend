@@ -35,7 +35,7 @@ Package versions are automatically published to [npm](https://www.npmjs.com/org/
 
 Once ready for publication to npm:
 
-1. Open a feature branch for your release
+1. Open a feature branch for your release.
 2. Remove the `"private": true` property from the `package.json` file.
 3. Perform a [new release](#new-release).
 
