@@ -22,7 +22,7 @@ Packages are published to npm within the [`ramseyinhouse`](https://www.npmjs.com
 
 This repository contains multiple packages managed through [Lerna](https://lerna.js.org/).
 
-Package versions are automatically published to [NPM](https://www.npmjs.com/org/ramseyinhouse) via [Github Actions](./.github/workflows/main.yml) as they are updated.
+Package versions are automatically published to [npm](https://www.npmjs.com/org/ramseyinhouse) via [Github Actions](./.github/workflows/main.yml) as they are updated.
 
 ## Contributing
 
