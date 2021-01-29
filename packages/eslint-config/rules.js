@@ -221,7 +221,6 @@ module.exports = {
     'object-shorthand': 0, // http://eslint.org/docs/rules/object-shorthand
     'prefer-arrow-callback': 2, // http://eslint.org/docs/rules/prefer-arrow-callback
     'prefer-const': 0, // http://eslint.org/docs/rules/prefer-const
-    'prefer-reflect': 2, // http://eslint.org/docs/rules/prefer-reflect
     'prefer-spread': 2, // http://eslint.org/docs/rules/prefer-spread
     'prefer-template': 2, // http://eslint.org/docs/rules/prefer-template
     'require-yield': 2, // http://eslint.org/docs/rules/require-yield
