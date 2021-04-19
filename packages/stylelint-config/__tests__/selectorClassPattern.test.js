@@ -105,6 +105,7 @@ describe('selectorClassPattern', () => {
       expect(regex.test('has-modal')).toBe(true);
       expect(regex.test('in-darkMode')).toBe(true);
       expect(regex.test('is-openBox')).toBe(true);
+      expect(regex.test('on-darkCanvas')).toBe(true);
     });
 
     test('should fail previous invalid cases', () => {
