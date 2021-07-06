@@ -50,6 +50,7 @@ Once ready for publication to npm:
 yarn run release
 ```
 
-_The `release` command will allow you to interactively update the `package.json` version(s) based on the scope of recent changes. A commit will be created and pushed automatically._
+_The `release` command will allow you to interactively update the `package.json` version(s) based on the scope of recent changes._
 
-3. Open a pull request. Once merged, the new package version(s) will be published to npm automatically.
+3. Commit the updated `package.json` file(s) and push to your feature branch.
+4. Open a pull request. Once merged, the new package version(s) will be published to npm automatically.
