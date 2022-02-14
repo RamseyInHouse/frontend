@@ -1,6 +1,6 @@
 {
   "name": "@ramseyinhouse/stylelint-config",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "author": "Ramsey Solutions",
   "description": "Ramsey Solutions standard stylelint configuration.",
   "homepage": "https://github.com/ramseyinhouse/frontend/packages/stylelint-config",
@@ -21,16 +21,17 @@
     "stylelint-config"
   ],
   "peerDependencies": {
-    "prettier": ">= 2.0.0",
-    "stylelint": ">= 13.0.0"
+    "postcss": ">= 8.3.3",
+    "prettier": ">= 2.5.0",
+    "stylelint": ">= 14.3.0"
   },
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^27.5.1"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^8.0.1",
-    "stylelint-config-sass-guidelines": "^7.1.0",
-    "stylelint-order": "^4.1.0"
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-order": "^5.0.0"
   },
   "main": "index.js",
   "scripts": {
