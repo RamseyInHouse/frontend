@@ -2,6 +2,8 @@
 
 Ramsey Solutions Frontend configurations and standards.
 
+We also recommend using [Prettier](https://prettier.io/) for formatting code in frontend repositories, but we use the default settings so there's no config file needed.
+
 ## Packages
 
 Packages are published to npm within the [`ramseyinhouse`](https://www.npmjs.com/org/ramseyinhouse) organization.
