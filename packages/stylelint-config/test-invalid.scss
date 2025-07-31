@@ -1,0 +1,34 @@
+/* Test file with INVALID class patterns - SHOULD FAIL */
+
+/* Invalid component class patterns */
+.button {
+  /* Should be .Button (PascalCase) */
+  display: block;
+}
+
+.component-name {
+  /* Should be .ComponentName (PascalCase) */
+  color: #333;
+}
+
+/* Invalid utility class patterns */
+.u-Hidden {
+  /* Should be .u-hidden (camelCase after u-) */
+  display: none;
+}
+
+.utility-class {
+  /* Should start with u- */
+  margin: 10px;
+}
+
+/* Invalid state class patterns */
+.is-Active {
+  /* Should be .is-active (camelCase after prefix) */
+  opacity: 1;
+}
+
+.active {
+  /* Should have is-, has-, in-, or on- prefix */
+  background: #000;
+}

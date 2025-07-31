@@ -1,0 +1,16 @@
+/* Test file for nesting depth - SHOULD FAIL */
+
+.Component {
+  .Component-level1 {
+    .Component-level2 {
+      .Component-level3 {
+        .Component-level4 {
+          /* This should exceed the max-nesting-depth of 4 */
+          .Component-level5 {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+}

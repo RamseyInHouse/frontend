@@ -1,3 +1,3 @@
 module.exports = {
-  extends: [require.resolve('./baseConfig'), 'stylelint-config-prettier'],
+  extends: [require.resolve('./baseConfig')],
 };
