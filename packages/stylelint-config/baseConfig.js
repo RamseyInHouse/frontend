@@ -6,7 +6,6 @@ module.exports = {
   extends: ['stylelint-config-sass-guidelines'],
   plugins: ['stylelint-order'],
   rules: {
-    'string-quotes': 'single',
     'selector-class-pattern': [
       getFormattedSelectorClassPatternRules(),
       {
@@ -19,7 +18,6 @@ module.exports = {
         ignore: ['blockless-at-rules'],
       },
     ],
-    'function-parentheses-space-inside': 'never-single-line',
     'function-url-quotes': 'never',
     'order/order': [
       'dollar-variables',
