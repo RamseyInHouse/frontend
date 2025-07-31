@@ -8,7 +8,8 @@
     "index.js",
     "flat-config.js",
     "rules.js",
-    "README.md"
+    "README.md",
+    "test/"
   ],
   "exports": {
     ".": "./flat-config.js",
@@ -18,6 +19,11 @@
   "scripts": {
     "test": "jest",
     "test:integration": "echo 'Running integration tests...' && npx eslint --version && echo 'ESLint config validation passed ✅'"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/test/**/*.test.js"
+    ]
   },
   "homepage": "https://github.com/ramseyinhouse/frontend/packages/eslint-config",
   "license": "GPL-3.0",

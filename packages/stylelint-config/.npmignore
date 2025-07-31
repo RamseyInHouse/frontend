@@ -1,7 +1,10 @@
-# Test files
+# Loose test files (keep organized test/ directory)
 test*.css
 test*.scss
 test*.sass
+
+# But allow organized test directory
+!test/
 
 # Development files
 .DS_Store

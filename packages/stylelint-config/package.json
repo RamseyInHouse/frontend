@@ -37,6 +37,11 @@
     "test": "jest",
     "test:integration": "echo 'Running integration tests...' && npx stylelint --version && echo 'Stylelint config validation passed ✅'"
   },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/test/**/*.test.js"
+    ]
+  },
   "publishConfig": {
     "access": "public"
   },
