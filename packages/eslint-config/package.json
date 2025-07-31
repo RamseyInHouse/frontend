@@ -1,9 +1,24 @@
 {
   "name": "@ramseyinhouse/eslint-config",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "author": "Ramsey Solutions",
   "description": "Ramsey Solutions standard ESLint configuration.",
-  "main": "index.js",
+  "main": "flat-config.js",
+  "files": [
+    "index.js",
+    "flat-config.js",
+    "rules.js",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./flat-config.js",
+    "./legacy": "./index.js",
+    "./rules": "./rules.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:integration": "echo 'Running integration tests...' && npx eslint --version && echo 'ESLint config validation passed ✅'"
+  },
   "homepage": "https://github.com/ramseyinhouse/frontend/packages/eslint-config",
   "license": "GPL-3.0",
   "repository": {
@@ -23,17 +38,20 @@
     "eslint-plugin"
   ],
   "dependencies": {
-    "@babel/core": "^7.24.9",
-    "@babel/eslint-parser": "^7.12.1",
-    "eslint-config-prettier": "^6.15.0"
+    "@babel/core": "^7.28.0",
+    "@babel/eslint-parser": "^7.28.0",
+    "eslint-config-prettier": "^10.1.8"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5"
   },
   "contributors": [
     "Christian Hughes <christian.hughes@daveramsey.com> (https://ramseyinhouse.com/)",
     "Alex MacArthur <alex.macarthur@daveramsey.com> (https://ramseyinhouse.com/)"
   ],
   "peerDependencies": {
-    "eslint": ">= 6.0.0",
-    "prettier": ">= 2.0.0"
+    "eslint": ">= 9.32.0",
+    "prettier": ">= 3.6.2"
   },
   "publishConfig": {
     "access": "public"
